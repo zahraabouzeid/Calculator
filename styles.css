@@ -56,6 +56,7 @@ button:hover {
     filter: brightness(0.8);
     transform: scale(1.02);
     cursor: pointer;
+    color:white;
 }
 
 .operator, .btn-equal{
@@ -74,7 +75,7 @@ button:hover {
 
 .btn-all-clear, .btn-parentheses, .btn-delete  {
     background-color: #A5A5A5;
-    color: black
+    color: black;
 }
 
 #equation {
