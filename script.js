@@ -9,11 +9,13 @@ const parenthesesButton = document.querySelector('.btn-parentheses');
 const deleteButton = document.querySelector('.btn-delete');
 const equationButtons = document.querySelectorAll('.equation');
 
+let parenthesesOpened = true;
 
 // FUNCTIONS
 function fctClear()
 {
     output.textContent = equation.textContent = "0";
+    parenthesesOpened = true;
 }
 
 function fctDelete()
@@ -73,7 +75,6 @@ function fctOnKeyPress(event)
     }
 }
 
-let parenthesesOpened = true;
 function fctAddToEquation(event) {
     if (event.target.textContent == "( )") {
         if (equation.textContent == "0") {
