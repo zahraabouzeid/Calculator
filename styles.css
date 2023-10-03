@@ -58,6 +58,11 @@ button:hover {
     background-color: #FF9F0C;
 }
 
+.operator:hover, .btn-equal:hover{
+    background-color: #ffffff;
+    color: #FF9F0C;
+}
+
 
 .number {
     background-color: #333333;
