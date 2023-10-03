@@ -8,22 +8,26 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: black;
+    background-color: lightgray;
 }
 
 .container {
     width: 50vh;
-    height: 100vh;
+    height: 82vh;
     margin: 0 auto;
     padding: 40px 20px 10px 20px;
     color: white;
+    background-color: black;
+    margin-top: 10vh;
+    border-radius: 6vh;
+    box-shadow: 0 0 70vh rgba(0, 0, 0, 1);
 }
 
 .operation {
     width: 100%;
     font-weight: 300;
     font-size: 8vh;
-    margin: 15% 0 10% 0;
+    padding-top: 2vh;
 }
 
 .operation p {
