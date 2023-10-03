@@ -63,7 +63,7 @@ function fctOnKeyPress(event)
     } else if (key === "Escape") {
         fctClear();
     } else if (key === "/") {
-        fctAdjustEquation("+");
+        fctAdjustEquation("÷");
     } else if (key === "*") {
         fctAdjustEquation("x");
     } else if (key === "Delete" || event.key === "Backspace") {
